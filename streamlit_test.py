@@ -19,7 +19,7 @@ st.subheader("페퍼톤스 20주년 이미지")
 image_files=["pptns_welcome.jpg",'pptnz1.jpg','pptnz2.jpg','pptnz3.jpg']
 sel_index = sel_options.index(user_opt)
 image_file=image_files[sel_index]
-image_local=Image.open(f"img/{image_file}")
+image_local=Image.open(f"{image_file}")
 st.image(image_local,caption=user_opt)
 
 
